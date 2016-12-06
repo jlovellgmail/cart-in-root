@@ -30,6 +30,7 @@ if (isset($_SESSION["Cart"])) {
         <link rel="stylesheet" href="/css/cartv2.css">
         <link rel="stylesheet" href="/css/forms.css">
         <script src="js/cart.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="/preorder/css/preorder.css" />
     </head>
     <body class="blackBg">
         <div class="bgWrapper">
