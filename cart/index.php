@@ -32,13 +32,58 @@ if (isset($_SESSION["Cart"])) {
         <script src="js/cart.js" type="text/javascript"></script>
         <link rel="stylesheet" href="/preorder/css/preorder.css" />
     </head>
-    <body class="blackBg">
+    <body class="cartPage">
         <div class="bgWrapper">
-            <div class="widthWrapper marBottom60">
+            <div class="widthWrapper">
+                
+
+
+
+                <!--
                 <div class="row">
-                    <div class="sm-twelve marTop30 marBottom30 textLeft"><img src="/img/vj-logo-white.png" alt="" width="280"></div>
+                    <div class="sm-twelve marTop30 marBottom30 textLeft">
+                        <img src="/img/vj-logo-white.png" alt="" width="280">
+                    </div>
                 </div>
-                <div class="row">
+                -->
+                <div class="headerContainer">
+                    <div class="navWidthWrapper">
+                        <div class="headerHeightWrapper">
+                            <div class="logoWrapper">
+                                <a class="logoLink" href="preorder/index.php">
+                                    <img class="navLogo" src="http://www.virgiljames.com/preorder/images/VJ_logo.svg" alt="Virgil James" />
+                                </a>
+                            </div>
+                            <div class="rightItemsContainer">
+                                <div class="desktopLinksContainer">
+                                    <div class="textLinksContainer">
+                                        <a href="preorder/index.php">Shop</a>
+                                        <a href="preorder/about.php">About</a>
+                                    </div>
+                                    <a class="iconWrapper" href="javascript:goToCheckout();">
+                                        <i class="icon-basket"></i>
+                                    </a>           
+                                    <a class="iconWrapper" href="preorder/login.php">
+                                        <i class="icon-torso"></i>
+                                    </a>
+                                </div>
+                                <div class='burgerContainer'>
+                                    <i class="icon-menu visible"></i>
+                                    <i class="icon-cancel"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottomBorder">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
+
+                <div class="row cartMain">
                     <div class="sm-twelve mTextCenterDLeft fw-300">
                         <div class="leafCorners1 whiteBg pad30">
                             <?php include "incs/CartNav.php"; ?>
@@ -81,9 +126,21 @@ if (isset($_SESSION["Cart"])) {
                         </div>
                     </div>
                 </div>
-		        <?php include '/incs/cartFooter.php'; ?>
+
+
+		        <?php //include '/incs/cartFooter.php'; ?>
+
+
+
             </div>
         </div>
+
+
+
+        <?php include $_SERVER['DOCUMENT_ROOT'] .'/preorder/incs/footer.php'; ?>
+
+
+
 		<?php include $_SERVER['DOCUMENT_ROOT'] .'/incs/modalFrame.php'; ?>
 <!--
         <div class="modalOverlay hide">
