@@ -33,53 +33,15 @@ if (isset($_SESSION["Cart"])) {
         <link rel="stylesheet" href="/preorder/css/preorder.css" />
     </head>
     <body class="cartPage">
+
+
+
+        <?php include $_SERVER['DOCUMENT_ROOT'] .'/preorder/nav.php'; ?>
+
+
+
         <div class="bgWrapper">
             <div class="widthWrapper">
-                
-
-
-
-                <!--
-                <div class="row">
-                    <div class="sm-twelve marTop30 marBottom30 textLeft">
-                        <img src="/img/vj-logo-white.png" alt="" width="280">
-                    </div>
-                </div>
-                -->
-                <div class="headerContainer">
-                    <div class="navWidthWrapper">
-                        <div class="headerHeightWrapper">
-                            <div class="logoWrapper">
-                                <a class="logoLink" href="preorder/index.php">
-                                    <img class="navLogo" src="http://www.virgiljames.com/preorder/images/VJ_logo.svg" alt="Virgil James" />
-                                </a>
-                            </div>
-                            <div class="rightItemsContainer">
-                                <div class="desktopLinksContainer">
-                                    <div class="textLinksContainer">
-                                        <a href="preorder/index.php">Shop</a>
-                                        <a href="preorder/about.php">About</a>
-                                    </div>
-                                    <a class="iconWrapper" href="javascript:goToCheckout();">
-                                        <i class="icon-basket"></i>
-                                    </a>           
-                                    <a class="iconWrapper" href="preorder/login.php">
-                                        <i class="icon-torso"></i>
-                                    </a>
-                                </div>
-                                <div class='burgerContainer'>
-                                    <i class="icon-menu visible"></i>
-                                    <i class="icon-cancel"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bottomBorder">
-                        </div>
-                    </div>
-                </div>
-
-
-
 
                 
 
@@ -126,9 +88,6 @@ if (isset($_SESSION["Cart"])) {
                         </div>
                     </div>
                 </div>
-
-
-		        <?php //include '/incs/cartFooter.php'; ?>
 
 
 
