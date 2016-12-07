@@ -20,7 +20,11 @@ switch ($page){
       
 }
 ?>
+
+<!--
 <div class="closeCartButton"><a href="javascript:cartClose();"> <i class="icon-cancel-1"></i></a></div>
+-->
+
 <div class="row">
     <div class="sm-twelve marBottom30 ">
         <nav class="stepByNav">
